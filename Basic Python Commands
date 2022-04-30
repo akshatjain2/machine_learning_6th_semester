@@ -1,0 +1,141 @@
+The basic commands are as follows.
+
+Comments: # symbol is being used for comments in python. For multiline comments, you have to use “”” symbols or enclosing the comment in the “”” symbol.
+Example:
+print “Hello World” # this is the comment section.
+
+Example:
+“”” This is Hello world project.”””
+
+Type function: These Python Commands are used to check the type of variable and used inbuilt functions to check.
+Example:
+type (20), its type is int.
+>>> type (20) < type ‘int’ >
+
+Example:
+type (-1 +j), its type is complex
+>>> type (-1+j)
+< type ‘complex’ >
+
+Strings: It is mainly enclosed in double-quotes.
+Example:
+type (“hello World”), type is string
+>>> type (“hello World”)
+< type ‘str’ >
+
+Lists: Lists are mainly enclosed in square bracket.
+Example:
+type ( [ 1, 2 ] ), type is list
+>>> type ( [ 1, 2, 3 ] )
+< type ‘List’ >
+
+Tuple: Tuple are mainly enclosed in parenthesis.
+Example:
+type ( 1, 2, 3), a type is a tuple.
+>>> type ( ( 1, 2, 3) )
+<type ‘tuple’ >
+
+Range: This function is used to create the list of integers.
+Example:
+>>> range ( 10 )
+Output: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Example:
+>>> range (1,10)
+Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+Boolean values: This data type helps in retrieving the data in True or false form.
+Example:
+>>> True
+True
+>>> type (True)
+< type ‘bool’ >
+
+Example:
+>>> False
+False
+>>> type (False)
+< type ‘bool’ >
+
+Operator: Different operator is used for the different functions like division, multiply, addition and subtraction.
+Example:
+>>> 16/2
+8
+Example: 
+>>> 2 * * ½
+1
+
+Variable and assignment: The assignment statement has variable = expression. Single ‘=’ is used for assignment, and double ‘= =’ is used to test for quality.
+Example:
+>>> X= 235
+>>> print X
+235
+>>> Z= 2* X
+>>> print Z
+470
+
+Comparison operators: To compare the two values and the result of the comparison is always boolean value.
+Example:
+>>> 2 < 3
+True
+
+
+Conditional/ decisions: It is used to make out the decision between two or more values like if-else
+Example:
+if x=0:
+Print “Hello, world.”
+Else:
+Print “Hello, world in Else.”
+
+For Loop: This Python command is used when iteration and action consist of the same elements.
+Example:
+for x in [ 1, 2, 3, 4, 5, 6]:
+Print x;
+
+While loop: While loop will never be executed if the condition evaluates to false for the first time.
+Example:
+x =0
+while x<10:
+Print x,
+X= x+2
+
+Else in loop: Loop have optional else for execution.
+Example:
+for x in [ 1, 3, 5, 7, 9, 11]:
+Print x
+Else:
+Print “In Else”
+
+Break, continue statement: break statement is used to exit out the loop when particular output is achieved; continue is used to continue with the next iteration of a loop.
+Example:
+if x==0:
+Print “X is 0”
+Break
+Else:
+Print “X is greater than 0.”
+
+Lists: It is the finite number of items, and by assigning a value to list the list value will get changed.
+Example:
+>>> a = [1, “JAY”, 34] >>> a [0] 1
+>>> a [0] = 101
+>>> a
+[101, “JAY”, 34]
+
+Length of list: To know the length if list.
+Example:
+>>> X = [1, 4, 67,9] >>> len (X)
+4
+
+Sublists: It will give you the values between the mentioned start index and the end index.
+Example:
+x [start : end] >>> X [1, 3, 4,6, 7, 8, 9, 0, 2] >>> X [2:5] [4, 6, 7]
+
+Joining two list: + operator is being used to concatenate 2 lists.
+Example:
+>>> [2, 1, 5] + [0, 4,6,7] [2, 1, 5, 0, 4, 6,7]
+
+Strings: It is used to check the index to know the character written in string.
+Example:
+>>> x= “hello, world”
+>>> x [2] ‘l’
+>>> x [5] ‘o’
